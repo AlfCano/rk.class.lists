@@ -1,0 +1,167 @@
+<!DOCTYPE
+	rkpluginmap
+>
+<document
+	base_prefix=""
+	namespace="CoerceDataStructure"
+	id="CoerceDataStructure_rkward"
+	po_id="CoerceDataStructure_rkward"
+	priority="medium"
+>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<!--
+		<dependencies>
+		</dependencies>
+	-->
+	<about
+		name="rk.class.lists"
+		shortinfo="A plugin package to coerce data structure, vectors and manipulating lists in the Rkward GUI."
+		longinfo="A plugin package to coerce data structure, vectors and manipulating lists in the Rkward GUI."
+		version="0.0.1"
+		releasedate="2025-11-21"
+		url="https://github.com/AlfCano/rk.class.lists"
+		license="GPL (&gt;= 3)"
+	>
+		<author
+			given="Alfonso"
+			family="Cano"
+			email="alfonso.cano@correo.buap.mx"
+			role="aut, cre"
+		/>
+	</about>
+	<require
+		map="rkward::menu"
+	/>
+	<require
+		map="rkward::embedded"
+	/>
+	<components>
+		<component
+			id="cmp_CoerceDatStrctrCrcVctrTyp"
+			label="Coerce Vector Type"
+			type="standard"
+			file="plugins/CoerceVectorType.xml"
+		>
+		</component>
+		<component
+			id="cmp_CoercDtStrctrBtchClmnCrcn"
+			label="Batch Column Coercion"
+			type="standard"
+			file="plugins/BatchColumnCoercion.xml"
+		>
+		</component>
+		<component
+			id="cmp_CoercDtStrctrCrtrAppndLst"
+			label="Create or Append List"
+			type="standard"
+			file="plugins/CreateorAppendList.xml"
+		>
+		</component>
+		<component
+			id="cmp_CrcDtStrctrExtrctLstElmnt"
+			label="Extract List Elements"
+			type="standard"
+			file="plugins/ExtractListElements.xml"
+		>
+		</component>
+		<component
+			id="cmp_CoerceDtStrctrCrcDtStrctr"
+			label="Coerce Data Structure"
+			type="standard"
+			file="plugins/CoerceDataStructure.xml"
+		>
+		</component>
+	</components>
+	<hierarchy>
+		<menu
+			id="data"
+			label="Data"
+		>
+			<menu
+				id="ClassandStructure"
+				label="Class and Structure"
+			>
+				<entry
+					component="cmp_CoerceDatStrctrCrcVctrTyp"
+				/>
+			</menu>
+		</menu>
+		<menu
+			id="data"
+			label="Data"
+		>
+			<menu
+				id="ClassandStructure"
+				label="Class and Structure"
+			>
+				<entry
+					component="cmp_CoercDtStrctrBtchClmnCrcn"
+				/>
+			</menu>
+		</menu>
+		<menu
+			id="data"
+			label="Data"
+		>
+			<menu
+				id="ClassandStructure"
+				label="Class and Structure"
+			>
+				<menu
+					id="ManipulateLists"
+					label="Manipulate Lists"
+				>
+					<entry
+						component="cmp_CoercDtStrctrCrtrAppndLst"
+					/>
+				</menu>
+			</menu>
+		</menu>
+		<menu
+			id="data"
+			label="Data"
+		>
+			<menu
+				id="ClassandStructure"
+				label="Class and Structure"
+			>
+				<menu
+					id="ManipulateLists"
+					label="Manipulate Lists"
+				>
+					<entry
+						component="cmp_CrcDtStrctrExtrctLstElmnt"
+					/>
+				</menu>
+			</menu>
+		</menu>
+		<menu
+			id="data"
+			label="Data"
+		>
+			<menu
+				id="ClassandStructure"
+				label="Class and Structure"
+			>
+				<entry
+					component="cmp_CoerceDtStrctrCrcDtStrctr"
+				/>
+			</menu>
+		</menu>
+	</hierarchy>
+	<!--
+		<context
+			id="x11"
+		>
+		</context>
+	-->
+	<!--
+		<context
+			id="import"
+		>
+		</context>
+	-->
+</document>

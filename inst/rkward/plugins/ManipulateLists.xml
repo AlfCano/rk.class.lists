@@ -1,0 +1,48 @@
+<!DOCTYPE rkplugin >
+<document>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<code file="ManipulateLists.js" />
+	<help file="ManipulateLists.rkh" />
+	<!--
+		<dependencies>
+		</dependencies>
+	-->
+	<logic>
+		<!--
+			<convert id="!edit!" sources="!edit!" mode="equals" standard="!edit!" />
+		-->
+		<!--
+			<connect governor="!edit!.state" client="!edit!.enabled" />
+		-->
+	</logic>
+	<dialog label="Manipulate Lists">
+		<row id="row_vCLCLMCNOA">
+			<varselector id="vars" />
+			<column id="clm_tCLCLMCNOA">
+				<tabbook>
+					<tab label="Compose List" id="tab_CompsLst">
+						<column id="clm_rMCNOAELEL">
+							<radio id="ml_create_mode" label="Mode">
+								<option label="Create New / Overwrite" value="new" checked="true" />
+								<option label="Append to Existing List" value="append" />
+							</radio>
+							<varslot id="ml_exist_list" label="Existing List (for Append)" source="vars" classes="list" />
+							<varslot id="ml_add_objs" label="Objects to Add" source="vars" required="true" multi="true" />
+							<saveobject label="Save List as" checkable="true" checked="true" initial="my_list" id="ml_save_list" />
+						</column>
+					</tab>
+					<tab label="Extract Element" id="tab_ExtrctEl">
+						<column id="clm_vrsSLENISE">
+							<varslot id="ml_src_list" label="Source List" source="vars" classes="list" required="true" />
+							<input label="Element Name or Index" id="ml_index" />
+							<saveobject label="Save Element as" checkable="true" checked="true" initial="extracted_elem" id="ml_save_elem" />
+						</column>
+					</tab>
+				</tabbook>
+			</column>
+		</row>
+	</dialog>
+</document>

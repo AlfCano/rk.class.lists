@@ -1,0 +1,30 @@
+<!DOCTYPE rkplugin >
+<document>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<code file="ExtractListElements.js" />
+	<help file="ExtractListElements.rkh" />
+	<!--
+		<dependencies>
+		</dependencies>
+	-->
+	<logic>
+		<!--
+			<convert id="!edit!" sources="!edit!" mode="equals" standard="!edit!" />
+		-->
+		<!--
+			<connect governor="!edit!.state" client="!edit!.enabled" />
+		-->
+	</logic>
+	<dialog label="Extract List Elements">
+		<row id="row_vSEESEOSEE">
+			<varselector id="vars" />
+			<column id="clm_vrslSEESEO">
+				<varslot id="el_vars" label="Select Elements to Extract" source="vars" required="true" multi="true" />
+				<saveobject label="Save Extracted Object(s) as" checkable="true" checked="true" initial="extracted_obj" id="el_save_elem" />
+			</column>
+		</row>
+	</dialog>
+</document>

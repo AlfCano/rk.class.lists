@@ -1,0 +1,48 @@
+<!DOCTYPE rkhelp >
+<document>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<title>
+		Manipulate Lists
+	</title>
+	<summary>
+	</summary>
+	<usage>
+	</usage>
+	<!--
+		<section id="sct_EDITORDE" title="EDIT OR DELETE ME">
+			EDIT OR DELETE ME
+		</section>
+	-->
+	<settings>
+		<caption id="tab_CompsLst" />
+		<setting id="ml_create_mode">
+		</setting>
+		<setting id="ml_exist_list">
+		</setting>
+		<setting id="ml_add_objs">
+		</setting>
+		<setting id="ml_save_list">
+		</setting>
+		<caption id="tab_ExtrctEl" />
+		<setting id="ml_src_list">
+		</setting>
+		<setting id="ml_index">
+		</setting>
+		<setting id="ml_save_elem">
+		</setting>
+	</settings>
+	<!--
+		<related>
+			<ul>
+				<li>
+					<link href="rkward://rhelp/..." />
+				</li>
+			</ul>
+		</related>
+	-->
+	<technical>
+	</technical>
+</document>

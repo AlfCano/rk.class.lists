@@ -1,0 +1,44 @@
+<!DOCTYPE rkplugin >
+<document>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<code file="BatchColumnCoercion.js" />
+	<help file="BatchColumnCoercion.rkh" />
+	<!--
+		<dependencies>
+		</dependencies>
+	-->
+	<logic>
+		<!--
+			<convert id="!edit!" sources="!edit!" mode="equals" standard="!edit!" />
+		-->
+		<!--
+			<connect governor="!edit!.state" client="!edit!.enabled" />
+		-->
+	</logic>
+	<dialog label="Batch Column Coercion">
+		<row id="row_vDMDMTDFLV">
+			<varselector id="vars" />
+			<column id="clm_fDMDMTDFLV">
+				<frame label="Data to Modify" id="frm_DattMdfy">
+					<varslot id="bc_df" label="Target Data Frame" source="vars" classes="data.frame" required="true" />
+				</frame>
+				<frame label="List/Vector of Column Names" id="frm_LstVctCN">
+					<varslot id="bc_names" label="Vector containing Column Names" source="vars" required="true" />
+				</frame>
+				<frame label="Target Type" id="frm_TargtTyp">
+					<dropdown id="bc_type" label="Convert Columns To">
+						<option label="Factor" value="factor" checked="true" />
+						<option label="Character" value="character" />
+						<option label="Numeric" value="numeric" />
+						<option label="Integer" value="integer" />
+						<option label="Logical" value="logical" />
+					</dropdown>
+				</frame>
+				<saveobject label="Save Data Frame as" checkable="true" checked="true" initial="batch_df" id="bc_save" />
+			</column>
+		</row>
+	</dialog>
+</document>

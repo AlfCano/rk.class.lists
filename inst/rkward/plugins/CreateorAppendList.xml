@@ -1,0 +1,36 @@
+<!DOCTYPE rkplugin >
+<document>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<code file="CreateorAppendList.js" />
+	<help file="CreateorAppendList.rkh" />
+	<!--
+		<dependencies>
+		</dependencies>
+	-->
+	<logic>
+		<!--
+			<convert id="!edit!" sources="!edit!" mode="equals" standard="!edit!" />
+		-->
+		<!--
+			<connect governor="!edit!.state" client="!edit!.enabled" />
+		-->
+	</logic>
+	<dialog label="Create or Append List">
+		<row id="row_vMCNLAELEL">
+			<varselector id="vars" />
+			<column id="clm_rMCNLAELEL">
+				<radio id="cl_create_mode" label="Mode">
+					<option label="Create New List" value="new" checked="true" />
+					<option label="Append to Existing List" value="append" />
+				</radio>
+				<varslot id="cl_exist_list" label="Existing List (for Append)" source="vars" classes="list" />
+				<varslot id="cl_add_objs" label="Objects to Add/Combine" source="vars" required="true" multi="true" />
+				<checkbox id="cl_rm_orig" label="Remove original objects from Workspace after assignment" value="1" />
+				<saveobject label="Save List as" checkable="true" checked="true" initial="my_list" id="cl_save_list" />
+			</column>
+		</row>
+	</dialog>
+</document>
