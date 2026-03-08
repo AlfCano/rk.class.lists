@@ -3,6 +3,10 @@
 ![Version](https://img.shields.io/badge/Version-0.0.1-blue.svg)
 ![License](https://img.shields.io/badge/License-GPL--3-green.svg)
 ![R Version](https://img.shields.io/badge/R-%3E%3D%203.0.0-lightgrey.svg)
+![RKWard](https://img.shields.io/badge/Platform-RKWard-green)
+[![R Linter](https://github.com/AlfCano/rk.class.lists/actions/workflows/lintr.yml/badge.svg)](https://github.com/AlfCano/rk.class.lists/actions/workflows/lintr.yml)
+![AI Assistance](https://img.shields.io/badge/Created%20with-Gemini-4E86F8)
+
 
 This package provides a suite of RKWard plugins designed to simplify the manipulation of R object classes and data structures. It offers a graphical interface for coercing objects (e.g., converting a matrix to a data frame), changing vector types (e.g., numeric to factor), and performing complex list operations (creating, appending, and extracting elements).
 
@@ -20,6 +24,10 @@ This package installs a new submenu in RKWard: **Data > Class and Structure**.
 *   **Coerce Vector Type:** Convert variables or vectors to specific atomic modes.
     *   Supports `Integer`, `Numeric`, `Character`, `Factor`, `Logical`, and `NULL`.
 
+  <img src="screenshots/example2_1.png" alt="Object Coercion" width="60%">
+     
+  *Screenshot of the RKWard interface showing the Object Coercion module, with two-dimensional conversion options enabled.*
+    
 *   **Batch Column Coercion:** Efficiently convert multiple columns within a data frame to a specific type.
     *   Target specific columns using a character vector of names.
     *   Ideal for bulk processing imported data (e.g., converting a list of "ID" columns to factors).
@@ -36,6 +44,10 @@ This package installs a new submenu in RKWard: **Data > Class and Structure**.
     *   **Smart Extraction:**
         *   If **one** element is selected, it is extracted directly, preserving its original class (e.g., extracting a single data frame returns a `data.frame`, not a `list`).
         *   If **multiple** elements are selected, they are returned as a new named `list`.
+        
+  <img src="screenshots/example2_2.png" alt="List Operations" width="60%">
+  
+  *Screenshot of the List Operations, showing the reactive panel for indexing and extracting hierarchical elements.*
 
 ## Requirements
 
@@ -71,6 +83,10 @@ rk.header ("Installation from GitHub completed")
 ## Usage
 
 Once installed, all plugins can be found under the **Data > Class and Structure** menu in RKWard.
+
+  <img src="screenshots/example1.png" alt="Hierarchy" width="50%">
+  
+  *Screenshot of the path in the main menu.*
 
 ### Example: Organizing Workspace into a List
 
