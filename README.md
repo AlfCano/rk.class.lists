@@ -1,6 +1,6 @@
 # rk.class.lists: Data Structure & List Manipulation for RKWard
 
-![Version](https://img.shields.io/badge/Version-0.0.1-blue.svg)
+![Version](https://img.shields.io/badge/Version-0.0.2-blue.svg)
 ![License](https://img.shields.io/badge/License-GPL--3-green.svg)
 ![R Version](https://img.shields.io/badge/R-%3E%3D%203.0.0-lightgrey.svg)
 ![RKWard](https://img.shields.io/badge/Platform-RKWard-green)
@@ -15,6 +15,16 @@ It is designed to bridge the gap between R's powerful but syntax-heavy coercion 
 ## Features / Included Plugins
 
 This package installs a new submenu in RKWard: **Data > Class and Structure**.
+
+## 🌍 Internationalization
+
+The interface is fully localized to match your RKWard language settings:
+
+*   🇺🇸 **English** (Default)
+*   🇪🇸 **Spanish** (`es`)
+*   🇫🇷 **French** (`fr`)
+*   🇩🇪 **German** (`de`)
+*   🇧🇷 **Portuguese** (Brazil) (`pt_BR`)
 
 ### Structure & Type Conversion
 *   **Coerce Data Structure:** Transform entire objects between standard R structures.

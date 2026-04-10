@@ -19,7 +19,7 @@ local({
     ),
     about = list(
       desc = "A plugin package to coerce data structure, vectors and manipulating lists in the Rkward GUI.",
-      version = "0.0.1",
+      version = "0.0.2",
       url = "https://github.com/AlfCano/rk.class.lists",
       license = "GPL (>= 3)"
     )

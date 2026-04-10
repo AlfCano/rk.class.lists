@@ -20,8 +20,8 @@
 		name="rk.class.lists"
 		shortinfo="A plugin package to coerce data structure, vectors and manipulating lists in the Rkward GUI."
 		longinfo="A plugin package to coerce data structure, vectors and manipulating lists in the Rkward GUI."
-		version="0.0.1"
-		releasedate="2025-11-21"
+		version="0.0.2"
+		releasedate="2026-04-10"
 		url="https://github.com/AlfCano/rk.class.lists"
 		license="GPL (&gt;= 3)"
 	>

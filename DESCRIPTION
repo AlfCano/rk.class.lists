@@ -2,8 +2,8 @@ Package: rk.class.lists
 Type: Package
 Title: A plugin package to coerce data structure, vectors and
         manipulating lists in the Rkward GUI.
-Version: 0.0.1
-Date: 2025-11-21
+Version: 0.0.2
+Date: 2026-04-10
 Author: Alfonso Cano
 Maintainer: Alfonso Cano <alfonso.cano@correo.buap.mx>
 Enhances: rkward

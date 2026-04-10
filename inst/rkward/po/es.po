@@ -1,0 +1,204 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: rk.class.lists 0.0.1\n"
+"Report-Msgid-Bugs-To: alfonso.cano@correo.buap.mx\n"
+"POT-Creation-Date: 2026-03-23 11:48-0600\n"
+"PO-Revision-Date: 2026-03-23 11:48-0600\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "data"
+msgstr "Datos"
+
+msgid "Class and Structure"
+msgstr "Clase y Estructura"
+
+msgid "Manipulate Lists"
+msgstr "Manipular Listas"
+
+msgid "Coerce Data Structure"
+msgstr "Forzar Estructura de Datos"
+
+msgid "Select Object"
+msgstr "Seleccionar Objeto"
+
+msgid "Target Structure"
+msgstr "Estructura de Destino"
+
+msgid "Vector (as.vector)"
+msgstr "Vector (as.vector)"
+
+msgid "Matrix (as.matrix)"
+msgstr "Matriz (as.matrix)"
+
+msgid "Data Frame (as.data.frame)"
+msgstr "Marco de Datos (as.data.frame)"
+
+msgid "List (as.list)"
+msgstr "Lista (as.list)"
+
+msgid "Save result as"
+msgstr "Guardar resultado como"
+
+msgid "Conversion Method"
+msgstr "Método de Conversión"
+
+msgid "Converts R objects between basic data structures: vector, matrix, data.frame, and list."
+msgstr "Convierte objetos de R entre estructuras de datos básicas: vector, matrix, data.frame y list."
+
+msgid "Select an object and choose the desired target structure."
+msgstr "Seleccione un objeto y elija la estructura de destino deseada."
+
+msgid "The target R class/structure."
+msgstr "La clase/estructura de R de destino."
+
+msgid "Coerce Vector Type"
+msgstr "Forzar Tipo de Vector"
+
+msgid "Select Vector/Variable"
+msgstr "Seleccionar Vector/Variable"
+
+msgid "Target Data Type"
+msgstr "Tipo de Datos de Destino"
+
+msgid "Integer (as.integer)"
+msgstr "Entero (as.integer)"
+
+msgid "Numeric (as.numeric)"
+msgstr "Numérico (as.numeric)"
+
+msgid "Character (as.character)"
+msgstr "Carácter (as.character)"
+
+msgid "Factor (as.factor)"
+msgstr "Factor (as.factor)"
+
+msgid "Logical (as.logical)"
+msgstr "Lógico (as.logical)"
+
+msgid "NULL (as.null - creates empty)"
+msgstr "NULL (as.null - crea vacío)"
+
+msgid "Converts an object or vector to a specific atomic type (integer, numeric, factor, etc.)."
+msgstr "Convierte un objeto o vector a un tipo atómico específico (entero, numérico, factor, etc.)."
+
+msgid "Select a variable and the target type."
+msgstr "Seleccione una variable y el tipo de destino."
+
+msgid "The target atomic mode."
+msgstr "El modo atómico de destino."
+
+msgid "Batch Column Coercion"
+msgstr "Conversión de Columnas por Lotes"
+
+msgid "Target Data Frame"
+msgstr "Marco de Datos de Destino"
+
+msgid "Vector containing Column Names"
+msgstr "Vector que contiene los Nombres de las Columnas"
+
+msgid "Convert Columns To"
+msgstr "Convertir Columnas A"
+
+msgid "Factor"
+msgstr "Factor"
+
+msgid "Character"
+msgstr "Carácter"
+
+msgid "Numeric"
+msgstr "Numérico"
+
+msgid "Integer"
+msgstr "Entero"
+
+msgid "Logical"
+msgstr "Lógico"
+
+msgid "Save Data Frame as"
+msgstr "Guardar Marco de Datos como"
+
+msgid "Data to Modify"
+msgstr "Datos a Modificar"
+
+msgid "List/Vector of Column Names"
+msgstr "Lista/Vector de Nombres de Columnas"
+
+msgid "Target Type"
+msgstr "Tipo de Destino"
+
+msgid "Converts a specific set of columns within a data frame to a single type, based on a vector of names."
+msgstr "Convierte un conjunto específico de columnas dentro de un marco de datos a un solo tipo, basado en un vector de nombres."
+
+msgid "Select the target dataframe and a vector containing the names of the columns to modify."
+msgstr "Seleccione el marco de datos de destino y un vector que contenga los nombres de las columnas a modificar."
+
+msgid "The dataframe containing the data."
+msgstr "El marco de datos que contiene los datos."
+
+msgid "A character vector with the names of the columns to convert."
+msgstr "Un vector de caracteres con los nombres de las columnas a convertir."
+
+msgid "The target type for the selected columns."
+msgstr "El tipo de destino para las columnas seleccionadas."
+
+msgid "Create or Append List"
+msgstr "Crear o Añadir a Lista"
+
+msgid "Mode"
+msgstr "Modo"
+
+msgid "Create New List"
+msgstr "Crear Nueva Lista"
+
+msgid "Append to Existing List"
+msgstr "Añadir a Lista Existente"
+
+msgid "Existing List (for Append)"
+msgstr "Lista Existente (para Añadir)"
+
+msgid "Objects to Add/Combine"
+msgstr "Objetos a Añadir/Combinar"
+
+msgid "Remove original objects from Workspace after assignment"
+msgstr "Eliminar objetos originales del Espacio de Trabajo tras la asignación"
+
+msgid "Save List as"
+msgstr "Guardar Lista como"
+
+msgid "Creates a new list from selected objects or appends objects to an existing list, using the object names as keys."
+msgstr "Crea una nueva lista a partir de los objetos seleccionados o añade objetos a una lista existente, utilizando los nombres de los objetos como claves."
+
+msgid "Select the objects to combine. If appending, select the base list."
+msgstr "Seleccione los objetos a combinar. Si va a añadir, seleccione la lista base."
+
+msgid "Choose whether to start a fresh list or add to an existing one."
+msgstr "Elija si desea iniciar una nueva lista o añadir a una existente."
+
+msgid "The R objects to include. They will be assigned to the list using their names as the index."
+msgstr "Los objetos de R a incluir. Se asignarán a la lista utilizando sus nombres como índice."
+
+msgid "If checked, top-level objects will be removed from the Global Environment after assignment."
+msgstr "Si está marcado, los objetos de nivel superior se eliminarán del Entorno Global después de la asignación."
+
+msgid "Extract List Elements"
+msgstr "Extraer Elementos de Lista"
+
+msgid "Select Elements to Extract"
+msgstr "Seleccionar Elementos a Extraer"
+
+msgid "Save Extracted Object(s) as"
+msgstr "Guardar Objeto(s) Extraído(s) como"
+
+msgid "Extracts specific elements (vectors, sub-lists, etc.) from an existing list or dataframe."
+msgstr "Extrae elementos específicos (vectores, sublistas, etc.) de una lista o marco de datos existente."
+
+msgid "Select specific elements. If one is selected, the object class is preserved. If multiple are selected, they are returned as a named list."
+msgstr "Seleccione elementos específicos. Si se selecciona uno, se conserva la clase del objeto. Si se seleccionan varios, se devuelven como una lista con nombre."
+
+msgid "The objects/elements to extract."
+msgstr "Los objetos/elementos a extraer."
